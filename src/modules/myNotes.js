@@ -114,6 +114,9 @@ updateNote(e){
             console.log(response);
         },
         error: (response) =>{
+         if(response.responseText == "you have reached Limit."){
+             $(".note-limit-message").addClass("active");
+         }   
          console.log("Sorry");
          console.log(response);
  
