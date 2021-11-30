@@ -1,5 +1,6 @@
 <?php
 
+
 function pageBanner($args = NULL) {
   
   if (!$args['title']) {
