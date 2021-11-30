@@ -7,8 +7,6 @@
     pageBanner();
     ?>
 
-    
-  
   <div class="container container--narrow page-section">
 
     <div class="generic-content">
@@ -68,10 +66,8 @@
               <?php } 
             echo '</ul>' ;
         }
-  
     ?>
 
-    
   </div>
     
   <?php }
