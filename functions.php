@@ -167,3 +167,8 @@ function makeNotePrivate($data, $postarr){
   }
   return $data;
 }
+
+add_filter('ai1wm_exclude_themes_from_export', function ($exclude_filters) {
+  $exclude_filters[] = 'fictional-university-theme/node_modules';
+  return $exclude_filters;
+});
